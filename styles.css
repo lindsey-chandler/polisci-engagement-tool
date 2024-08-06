@@ -8,5 +8,6 @@ body, html {
 #color-container {
     width: 100vw;
     height: 100vh;
-    transition: background-color 0.5s;
+    background-color: red; /*Initial color*/
+    transition: background-color 0.3s;
 }

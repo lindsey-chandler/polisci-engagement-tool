@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Add event listener for touch events
-    document.addEventListener('touchstart', toggleColor);
+    colorContainer.addEventListener('touchstart', toggleColor);
 
     // Optionally, add event listener for clicks (if you want to support non-touch devices)
-    document.addEventListener('click', toggleColor);
+    colorContainer.addEventListener('click', toggleColor);
 });
